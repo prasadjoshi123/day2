@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: traveler
+  datasource:
+    url: jdbc:h2:mem:traveler
+    username: sa
+    password: password
+    jpa.database-platform: org.hibernate.dialect.H2Dialect
+    jpa.open-in-view: false
+    h2.console.enabled: true
+server.port: 8081    
